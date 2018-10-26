@@ -177,7 +177,7 @@
         <Component class="javax.swing.JLabel" name="jLabel2">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Games\FlyChat\img\dev.png"/>
+              <Image iconType="3" name="/img/dev.png"/>
             </Property>
           </Properties>
         </Component>

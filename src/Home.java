@@ -270,11 +270,11 @@ public class Home extends javax.swing.JFrame
         jPanel1.add(jLabel3);
         jLabel3.setBounds(20, 20, 50, 10);
 
-        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Games\\FlyChat\\img\\minichat.png")); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/minichat.png"))); // NOI18N
         jPanel1.add(jLabel2);
         jLabel2.setBounds(10, 0, 60, 70);
 
-        jLabel12.setIcon(new javax.swing.ImageIcon("C:\\Games\\FlyChat\\img\\miniscreen.png")); // NOI18N
+        jLabel12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/miniscreen.png"))); // NOI18N
         jPanel1.add(jLabel12);
         jLabel12.setBounds(0, 0, 620, 80);
 
@@ -286,9 +286,9 @@ public class Home extends javax.swing.JFrame
         jLabel8.setForeground(new java.awt.Color(255, 255, 221));
         jLabel8.setText("All rights reserved 2018-19");
         jPanel2.add(jLabel8);
-        jLabel8.setBounds(230, 20, 170, 15);
+        jLabel8.setBounds(230, 20, 280, 15);
 
-        jLabel9.setIcon(new javax.swing.ImageIcon("C:\\Games\\FlyChat\\img\\copyright.png")); // NOI18N
+        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/copyright.png"))); // NOI18N
         jPanel2.add(jLabel9);
         jLabel9.setBounds(210, 20, 20, 16);
 
@@ -304,11 +304,11 @@ public class Home extends javax.swing.JFrame
             }
         });
 
-        jLabel6.setIcon(new javax.swing.ImageIcon("C:\\Games\\FlyChat\\img\\client.png")); // NOI18N
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/client.png"))); // NOI18N
 
-        jLabel4.setIcon(new javax.swing.ImageIcon("C:\\Games\\FlyChat\\img\\server.png")); // NOI18N
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/server.png"))); // NOI18N
 
-        jLabel7.setIcon(new javax.swing.ImageIcon("C:\\Games\\FlyChat\\img\\about.png")); // NOI18N
+        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/about.png"))); // NOI18N
 
         jButton2.setFont(new java.awt.Font("Century Gothic", 1, 12)); // NOI18N
         jButton2.setForeground(new java.awt.Color(55, 71, 79));
@@ -330,7 +330,7 @@ public class Home extends javax.swing.JFrame
             }
         });
 
-        jLabel13.setIcon(new javax.swing.ImageIcon("C:\\Games\\FlyChat\\img\\shutdown.png")); // NOI18N
+        jLabel13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/shutdown.png"))); // NOI18N
 
         jButton4.setFont(new java.awt.Font("Century Gothic", 1, 12)); // NOI18N
         jButton4.setForeground(new java.awt.Color(55, 71, 79));
@@ -407,7 +407,6 @@ public class Home extends javax.swing.JFrame
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(layout.createSequentialGroup()
                 .addGap(22, 22, 22)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
@@ -418,6 +417,7 @@ public class Home extends javax.swing.JFrame
                         .addComponent(jLabel11, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
                 .addContainerGap(18, Short.MAX_VALUE))
             .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)

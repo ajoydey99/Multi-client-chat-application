@@ -52,7 +52,7 @@ public class Welcome extends javax.swing.JFrame implements Runnable
 
         jPanel1.setLayout(null);
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Games\\FlyChat\\img\\animated-bird.gif")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/animated-bird.gif"))); // NOI18N
         jPanel1.add(jLabel1);
         jLabel1.setBounds(90, 160, 300, 160);
 
@@ -74,11 +74,11 @@ public class Welcome extends javax.swing.JFrame implements Runnable
         jLabel6.setBounds(100, 130, 80, 20);
 
         jLabel5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel5.setIcon(new javax.swing.ImageIcon("C:\\Games\\FlyChat\\img\\chat-bubble.png")); // NOI18N
+        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/chat-bubble.png"))); // NOI18N
         jPanel1.add(jLabel5);
         jLabel5.setBounds(0, 0, 190, 160);
 
-        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Games\\FlyChat\\img\\screen.png")); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/screen.png"))); // NOI18N
         jPanel1.add(jLabel2);
         jLabel2.setBounds(0, 0, 400, 350);
 

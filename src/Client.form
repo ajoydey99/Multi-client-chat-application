@@ -96,7 +96,7 @@
         <Component class="javax.swing.JLabel" name="jLabel2">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Games\FlyChat\img\minichat.png"/>
+              <Image iconType="3" name="/img/minichat.png"/>
             </Property>
           </Properties>
           <Constraints>
@@ -108,7 +108,7 @@
         <Component class="javax.swing.JLabel" name="jLabel1">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Games\FlyChat\img\miniscreen.png"/>
+              <Image iconType="3" name="/img/miniscreen.png"/>
             </Property>
           </Properties>
           <Constraints>
@@ -442,7 +442,7 @@
         <Component class="javax.swing.JButton" name="jButton4">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Games\FlyChat\img\send.png"/>
+              <Image iconType="3" name="/img/send.png"/>
             </Property>
             <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
               <Color id="Hand Cursor"/>

@@ -45,7 +45,7 @@ public class About extends javax.swing.JFrame {
         jLabel10.setForeground(new java.awt.Color(0, 102, 51));
         jLabel10.setText(":     Multi Client Chat Application");
 
-        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Games\\FlyChat\\img\\dev.png")); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/dev.png"))); // NOI18N
 
         jLabel1.setFont(new java.awt.Font("Century Gothic", 1, 16)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(0, 153, 153));

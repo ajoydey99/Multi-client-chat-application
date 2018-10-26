@@ -111,7 +111,6 @@ public class Client extends javax.swing.JFrame
                     else if(line.startsWith(Home.serverStatus))
                     {
                         line = line.replace(Home.serverStatus,"");
-                        System.out.println(line);
                         if(line.equalsIgnoreCase("true"))
                             JOptionPane.showMessageDialog(null,"Server is running smoothly");
                         else
@@ -215,11 +214,11 @@ public class Client extends javax.swing.JFrame
         jPanel3.add(jLabel3);
         jLabel3.setBounds(30, 14, 34, 20);
 
-        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Games\\FlyChat\\img\\minichat.png")); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/minichat.png"))); // NOI18N
         jPanel3.add(jLabel2);
         jLabel2.setBounds(10, 0, 60, 70);
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Games\\FlyChat\\img\\miniscreen.png")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/miniscreen.png"))); // NOI18N
         jPanel3.add(jLabel1);
         jLabel1.setBounds(0, 0, 630, 70);
 
@@ -360,7 +359,7 @@ public class Client extends javax.swing.JFrame
         jLabel5.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 14)); // NOI18N
         jLabel5.setText("Client Status: ");
 
-        jButton4.setIcon(new javax.swing.ImageIcon("C:\\Games\\FlyChat\\img\\send.png")); // NOI18N
+        jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/send.png"))); // NOI18N
         jButton4.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
